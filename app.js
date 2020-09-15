@@ -20,6 +20,19 @@ const blogSchema = new mongoose.Schema({
 const Blog = mongoose.model("Blog", blogSchema);
 
 // RESFUL ROUTES
+app.get("/", (req, res) => {
+  res.redirect("/blogs");
+});
+
+app.get("/blogs", (req, res) => {
+  Blog.find({}, (err, blogs) => {
+    if(err){
+      console.log(err);
+    } else {
+      res.render("index", {blogs: blogs});
+    }
+  })
+});
 
 app.listen(3000, () => {
   console.log("Server is running");
