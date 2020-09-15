@@ -1,0 +1,15 @@
+{
+  "name": "node_blog_app",
+  "version": "1.0.0",
+  "description": "A simple blog app to practice RESTful routing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "blog-app"
+  },
+  "author": "Cataline Baert",
+  "license": "ISC"
+}
