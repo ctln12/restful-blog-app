@@ -19,7 +19,7 @@ const blogSchema = new mongoose.Schema({
 
 const Blog = mongoose.model("Blog", blogSchema);
 
-// RESFUL ROUTES
+// RESTFUL ROUTES
 app.get("/", (req, res) => {
   res.redirect("/blogs");
 });
@@ -32,6 +32,10 @@ app.get("/blogs", (req, res) => {
       res.render("index", {blogs: blogs});
     }
   })
+});
+
+app.get("/blogs/new", (req, res) => {
+  res.render("new");
 });
 
 app.listen(3000, () => {
