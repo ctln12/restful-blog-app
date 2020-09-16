@@ -38,6 +38,16 @@ app.get("/blogs/new", (req, res) => {
   res.render("new");
 });
 
+app.post("/blogs", (req, res) => {
+  Blog.create(req.body.blog, (err, newBlog) => {
+    if(err){
+      res.render("new");
+    } else {
+      res.redirect("/blogs");
+    }
+  });
+});
+
 app.listen(3000, () => {
   console.log("Server is running");
 });
