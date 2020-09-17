@@ -21,3 +21,9 @@
 * Add SHOW template
 * Add links to SHOW page
 * Style SHOW  template
+
+### Putting the U in CRUD
+* Add EDIT route
+* Add EDIT form
+* Add UPDATE route
+* Add method-override
