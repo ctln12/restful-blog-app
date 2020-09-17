@@ -15,3 +15,9 @@
 * Add NEW template
 * Add CREATE route
 * Add CREATE template
+
+### Putting the R in CRUD
+* Add SHOW route
+* Add SHOW template
+* Add links to SHOW page
+* Style SHOW  template
