@@ -48,6 +48,10 @@ app.post("/blogs", (req, res) => {
   });
 });
 
+app.get("/blogs/:id", (req, res) => {
+  res.render("show");
+});
+
 app.listen(3000, () => {
   console.log("Server is running");
 });
