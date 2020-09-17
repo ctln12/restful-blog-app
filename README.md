@@ -20,7 +20,7 @@
 * Add SHOW route
 * Add SHOW template
 * Add links to SHOW page
-* Style SHOW  template
+* Style SHOW template
 
 ### Putting the U in CRUD
 * Add EDIT route
@@ -31,3 +31,7 @@
 ### Putting the D in CRUD
 * Add DESTROY route
 * Add EDIT and DESTROY links
+
+### Final Updates
+* Sanitize blog body
+* Style INDEX template
