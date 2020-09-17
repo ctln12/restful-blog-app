@@ -27,3 +27,7 @@
 * Add EDIT form
 * Add UPDATE route
 * Add method-override
+
+### Putting the D in CRUD
+* Add DESTROY route
+* Add EDIT and DESTROY links
